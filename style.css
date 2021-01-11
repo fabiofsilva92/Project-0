@@ -1,0 +1,97 @@
+/* Header */
+
+.upp-right {
+    text-align: right;
+}
+
+.upperR,
+.upperR::marker {
+    /* CSS dos links para imagem e avançado */
+    display: inline-block;
+    color: white;
+    padding: 0px 0px 0px 0px;
+}
+
+.advanced-cnt {
+    /* Posição do avançado */
+    padding-left: 30px;
+}
+
+
+/* Imagens centralizada */
+
+.image {
+    /* CSS da Imagem */
+    margin-top: 110px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 170px;
+}
+
+.google-image2 {
+    width: 272px;
+    margin-bottom: 25px;
+}
+
+
+/* Campos de pesquisa */
+
+.input-search {
+    /* CSS do campo de pesquisa */
+    width: 450px;
+    height: 34px;
+    border-radius: 25px;
+    border: 1px solid white;
+    box-shadow: 0 0 3px rgb(179, 176, 176);
+    outline: none;
+    padding-left: 15px;
+}
+
+.search {
+    /* CSS do form inteiro */
+    display: block;
+    text-align: center;
+}
+
+
+/* Botões */
+
+div#buttons {
+    /* CSS dos botões */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.button-go,
+.button-flucky {
+    background-image: -webkit-linear-gradient(top, #f8f9fa, #f8f9fa);
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button-go:hover,
+.button-flucky:hover {
+    box-shadow: 0 0 2px rgb(179, 176, 176);
+}

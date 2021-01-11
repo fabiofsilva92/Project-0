@@ -1,0 +1,138 @@
+/* Header */
+
+.upp-right {
+    text-align: right;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.upperR,
+.upperR::marker {
+    /* CSS dos links para imagem e avançado */
+    display: inline-block;
+    color: white;
+    padding: 0px 0px 0px 0px;
+}
+
+header {
+    background-color: #f1f1f1;
+    height: 60px;
+    width: 100%;
+}
+
+
+/* Center */
+
+body {
+    margin: 0px 0px 0px 0px;
+}
+
+#adv-bar {
+    color: red;
+    font: 20px Arial, sans-serif;
+    margin: 25px 35px;
+}
+
+.division {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.advsearch {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: 200px 500px;
+    grid-template-areas: "srchpgs .""labela inputa" "labelb inputb" "labelc inputc" "labeld inputd" ". button";
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.srchpgs {
+    font: 16px arial, sans-serif;
+}
+
+label {
+    font: 13px arial, sans-serif;
+}
+
+.label1 {
+    grid-area: labela;
+}
+
+.inpt1 {
+    grid-area: inputa;
+}
+
+.label2 {
+    grid-area: labelb
+}
+
+.inpt2 {
+    grid-area: inputb
+}
+
+.label3 {
+    grid-area: labelc
+}
+
+.inpt3 {
+    grid-area: inputc
+}
+
+.label4 {
+    grid-area: labeld
+}
+
+.inpt4 {
+    grid-area: inputd
+}
+
+.button {
+    grid-area: button;
+    width: 100px;
+    justify-self: end;
+    margin-top: 15px;
+}
+
+input[type="text"] {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 500px;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border: 1px solid #4d90fe;
+    box-shadow: inset 0.5px 0.5px rgb(141, 140, 140);
+}
+
+.advinp {
+    background-color: #4d90fe;
+    color: white;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    user-select: none;
+    line-height: 100%;
+    height: 30px;
+    min-width: 120px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.label1,
+.label2,
+.label3,
+.label4,
+.inpt1,
+.inpt2,
+.inpt3,
+.inpt4 {
+    margin-top: 10px;
+}
